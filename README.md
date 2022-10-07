@@ -24,24 +24,23 @@ First we have to do the essential steps to prepare data fo the Machine Learning:
 
 - Also, for Oversampling we used SMOTE Oversampling to resample training data and Logistic Regression model to train resampled data. The balanced accuracy score for this model is 0,64 which is pretty low. The imbalanced classification report looks like folowing: 
 
-image
+<img src= "Pictures/icr SMOTE.png" width = "500">
 
 - For Undersampling we used ClusterCentroids to resample training data and Logistic Regression model to train resampled data. The balanced accuracy score for this model is 0,64 which is still pretty low. The imbalanced classification report looks like folowing: 
 
-image
+<img src= "Pictures/icr ClusterCentroids.png" width = "500">
 
 And we used a combination of Over and Under Sampling which is called SMOTEENN. After we resampled data to train a logistic regression model the  balanced accuracy score calculated as 0,66 which is a little hihger then the previous models, but not much. The imbalanced classification report looks like folowing: 
 
-image
+<img src= "Pictures/icr SMOTEENN.png" width = "500">
 
 For next we had to use ensemble classifiers. First we used BalancedRandomForestClassifier to resample the training data for same dataset. The calculated the balanced accuracy score for this model is 0,79 and imbalanced classification report looks like the following:
 
-image
-
+<img src= "Pictures/icr Forest Classifier.png" width = "500">
 
 Then we used EasyEnsembleClassifier to resample the training data for same dataset. The calculated the balanced accuracy score for this model is 0,93 and imbalanced classification report looks like the following:
 
-image
+<img src= "Pictures/cri EasyEnsembleClassifier .png" width = "500">
 
 ## Summary: 
 
