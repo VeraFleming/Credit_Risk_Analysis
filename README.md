@@ -20,7 +20,7 @@ First we have to do the essential steps to prepare data fo the Machine Learning:
 
 - For Oversampling we used RandomOversampler to resample training data and Logistic Regression model to train resampled data. The balanced accuracy score for this model is 0,66 which is pretty low. The imbalanced classification report looks like folowing: 
 
-image
+<img src= "Pictures/imbalanced classification report.png" width = "500"> 
 
 - Also, for Oversampling we used SMOTE Oversampling to resample training data and Logistic Regression model to train resampled data. The balanced accuracy score for this model is 0,64 which is pretty low. The imbalanced classification report looks like folowing: 
 
